@@ -1,0 +1,257 @@
+TPreference Pane
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Info.plist" Info.plist
+cStripNIB "/Users/josenistal/Code/Fan Control Source/PreferencePane.nib"
+cCpResource FanControl.icns "build/Debug/Fan Control.prefPane/Contents/Resources/FanControl.icns"
+cCopyTiffFile "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Resources/PrefPaneIcon.tiff" PrefPaneIcon.tiff
+cProcessPCH /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h.pth /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFChartView.o" "/Users/josenistal/Code/Fan Control Source/MFChartView.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFPreferencePane.o" "/Users/josenistal/Code/Fan Control Source/MFPreferencePane.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFTemperatureTransformer.o" "/Users/josenistal/Code/Fan Control Source/MFTemperatureTransformer.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/MacOS/Fan Control" normal i386
+cTouch "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane"
+
+N/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000005149BCF6000000000000197F
+t1363786998
+s6527
+
+N/System/Library/Frameworks/PreferencePanes.framework/PreferencePanes
+c0000000051479BA60000000000060C90
+t1363647398
+s396432
+
+N/Users/josenistal/Code/Fan Control Source/FanControl.icns
+c00000000472254060000000000010C26
+t1193432070
+s68646
+
+N/Users/josenistal/Code/Fan Control Source/MFChartView.h
+c00000000472254060000000000000489
+t1193432070
+s1161
+
+N/Users/josenistal/Code/Fan Control Source/MFChartView.m
+c00000000472254060000000000000E23
+t1193432070
+s3619
+
+N/Users/josenistal/Code/Fan Control Source/MFPreferencePane.h
+c0000000047225406000000000000068C
+t1193432070
+s1676
+
+N/Users/josenistal/Code/Fan Control Source/MFPreferencePane.m
+c00000000472254060000000000000E48
+t1193432070
+s3656
+i"MFPreferencePane.h"
+i"MFProtocol.h"
+i"MFTemperatureTransformer.h"
+i"MFChartView.h"
+
+N/Users/josenistal/Code/Fan Control Source/MFProtocol.h
+c000000004722540600000000000004E2
+t1193432070
+s1250
+
+N/Users/josenistal/Code/Fan Control Source/MFTemperatureTransformer.h
+c000000004722540600000000000003CE
+t1193432070
+s974
+
+N/Users/josenistal/Code/Fan Control Source/MFTemperatureTransformer.m
+c0000000047225406000000000000060C
+t1193432070
+s1548
+
+N/Users/josenistal/Code/Fan Control Source/PrefPaneIcon.tiff
+c000000004722540600000000000061D0
+t1193432070
+s25040
+
+N/Users/josenistal/Code/Fan Control Source/PreferencePane.nib
+c000000004723689900000000000000AA
+t1193502873
+s170
+
+N/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Info.plist
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/MacOS/Fan Control
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Resources/FanControl.icns
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Resources/PrefPaneIcon.tiff
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Resources/PreferencePane.nib
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/Fan Control.LinkFileList
+c000000005149E2870000000000000192
+t1363796615
+s402
+
+N/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFChartView.o
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFPreferencePane.o
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFTemperatureTransformer.o
+t2
+s0
+
+N/var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h.pth
+t2
+s0
+
+NInfo.plist
+c000000004723247300000000000003E8
+t1193485427
+s1000
+
+CBuild AST from "/Users/josenistal/Code/Fan Control Source/MFChartView.m"
+r0
+
+CBuild AST from "/Users/josenistal/Code/Fan Control Source/MFPreferencePane.m"
+r0
+
+CBuild AST from "/Users/josenistal/Code/Fan Control Source/MFTemperatureTransformer.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies09365e071afab641^c7f163071afab641^---0#1#0#--18"Check dependencies36"3BB65266-F2DC-4754-A00C-06D8697272C6-
+
+CCompileC "build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFChartView.o" "/Users/josenistal/Code/Fan Control Source/MFChartView.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385489416.017780
+e385489416.072736
+r1
+xCompileC
+xbuild/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFChartView.o
+x/Users/josenistal/Code/Fan Control Source/MFChartView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/josenistal/Code/Fan Control Source/MFChartView.me2ac04081afab641^6b9f12081afab641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/MFChartView.m0000000000000000^2594"CompileC "build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFChartView.o" MFChartView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/josenistal/Code/Fan Control Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Fan Control.hmap" "-I/Users/josenistal/Code/Fan Control Source/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/System/Library/Frameworks/PreferencePanes.framework/Headers "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/DerivedSources/i386" "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/DerivedSources" "-F/Users/josenistal/Code/Fan Control Source/build/Debug" -include /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h -MMD -MT dependencies -MF "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFChartView.d" --serialize-diagnostics "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFChartView.dia" -c "/Users/josenistal/Code/Fan Control Source/MFChartView.m" -o "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFChartView.o"36"9140852D-6BBB-47B7-9E56-5D21695FE364-
+
+CCompileC "build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFPreferencePane.o" "/Users/josenistal/Code/Fan Control Source/MFPreferencePane.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385489416.017783
+e385489416.076640
+r1
+xCompileC
+xbuild/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFPreferencePane.o
+x/Users/josenistal/Code/Fan Control Source/MFPreferencePane.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/josenistal/Code/Fan Control Source/MFPreferencePane.m:61:12: warning: incompatible pointer types assigning to 'MFDaemon *' from 'NSDistantObject *' [-Wincompatible-pointer-types]
+o    daemon = [[connection rootProxy] retain];
+o           ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+o/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:35:1: note: instance method 'retain' is assumed to return an instance of its receiver type ('NSDistantObject *')
+o- (id)retain NS_AUTOMATED_REFCOUNT_UNAVAILABLE;
+o^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/josenistal/Code/Fan Control Source/MFPreferencePane.ma0a804081afab641^a19d13081afab641^-528"/Users/josenistal/Code/Fan Control Source/MFPreferencePane.m:61:12: warning: incompatible pointer types assigning to 'MFDaemon *' from 'NSDistantObject *' [-Wincompatible-pointer-types]    daemon = [[connection rootProxy] retain];           ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h:35:1: note: instance method 'retain' is assumed to return an instance of its receiver type ('NSDistantObject *')- (id)retain NS_AUTOMATED_REFCOUNT_UNAVAILABLE;^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@77"Incompatible pointer types assigning to 'MFDaemon *' from 'NSDistantObject *'-385489416#18446744073709551615#0#1(2@100"Instance method 'retain' is assumed to return an instance of its receiver type ('NSDistantObject *')-385489416#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@82"file://localhost/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h0000000000000000^34#0#34#0#830#0#25"Related Result Type Issue--1#27"com.apple.dt.IDE.diagnostic3@80"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/MFPreferencePane.m0000000000000000^60#11#60#11#1844#0#14"Semantic Issue1(3@80"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/MFPreferencePane.m0000000000000000^60#13#60#44#1846#30#-0#0#0#-19%DVTDocumentLocation4@80"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/MFPreferencePane.m0000000000000000^2624"CompileC "build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFPreferencePane.o" MFPreferencePane.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/josenistal/Code/Fan Control Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Fan Control.hmap" "-I/Users/josenistal/Code/Fan Control Source/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/System/Library/Frameworks/PreferencePanes.framework/Headers "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/DerivedSources/i386" "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/DerivedSources" "-F/Users/josenistal/Code/Fan Control Source/build/Debug" -include /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h -MMD -MT dependencies -MF "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFPreferencePane.d" --serialize-diagnostics "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFPreferencePane.dia" -c "/Users/josenistal/Code/Fan Control Source/MFPreferencePane.m" -o "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFPreferencePane.o"36"BE5B0A28-CBE6-46F6-9EE1-A1DD8260769D-
+
+CCompileC "build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFTemperatureTransformer.o" "/Users/josenistal/Code/Fan Control Source/MFTemperatureTransformer.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385489416.017786
+e385489416.061160
+r1
+xCompileC
+xbuild/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFTemperatureTransformer.o
+x/Users/josenistal/Code/Fan Control Source/MFTemperatureTransformer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/josenistal/Code/Fan Control Source/MFTemperatureTransformer.m47ad04081afab641^a8a70f081afab641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/MFTemperatureTransformer.m0000000000000000^2672"CompileC "build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFTemperatureTransformer.o" MFTemperatureTransformer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/josenistal/Code/Fan Control Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Fan Control.hmap" "-I/Users/josenistal/Code/Fan Control Source/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/System/Library/Frameworks/PreferencePanes.framework/Headers "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/DerivedSources/i386" "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/DerivedSources" "-F/Users/josenistal/Code/Fan Control Source/build/Debug" -include /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h -MMD -MT dependencies -MF "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFTemperatureTransformer.d" --serialize-diagnostics "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFTemperatureTransformer.dia" -c "/Users/josenistal/Code/Fan Control Source/MFTemperatureTransformer.m" -o "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/MFTemperatureTransformer.o"36"F9E306A8-D966-4DB9-B639-18C91735F738-
+
+CCopyTiffFile "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Resources/PrefPaneIcon.tiff" PrefPaneIcon.tiff
+s385489415.406230
+e385489415.416218
+r1
+xCopyTiffFile
+x/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Resources/PrefPaneIcon.tiff
+xPrefPaneIcon.tiff
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection22"Copy PrefPaneIcon.tiffe04868071afab641^02f16a071afab641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/PrefPaneIcon.tiff0000000000000000^301"CopyTiffFile "build/Debug/Fan Control.prefPane/Contents/Resources/PrefPaneIcon.tiff" PrefPaneIcon.tiff    cd "/Users/josenistal/Code/Fan Control Source"    builtin-copyTiff --outdir "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Resources" -- PrefPaneIcon.tiff36"0B218AB0-1D6B-4F2E-B11A-3F61C905ACE7-
+
+CCpResource FanControl.icns "build/Debug/Fan Control.prefPane/Contents/Resources/FanControl.icns"
+s385489415.406221
+e385489415.414811
+r1
+xCpResource
+xFanControl.icns
+xbuild/Debug/Fan Control.prefPane/Contents/Resources/FanControl.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Debug/Fan Control.prefPane/Contents/Resources/FanControl.icns341368071afab641^62316a071afab641^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/build/Debug/Fan%20Control.prefPane/Contents/Resources/FanControl.icns000000000080d041^416"CpResource FanControl.icns "build/Debug/Fan Control.prefPane/Contents/Resources/FanControl.icns"    cd "/Users/josenistal/Code/Fan Control Source"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/josenistal/Code/Fan Control Source/FanControl.icns" "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Resources"36"96442076-204C-41CE-9B01-6F2DD02F30F2-
+
+CLd "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/MacOS/Fan Control" normal i386
+s385489416.082940
+e385489416.113687
+r1
+xLd
+x/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/MacOS/Fan Control
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Link /Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/MacOS/Fan Control7b4f15081afab641^f81b1d081afab641^---0#0#0#--705"Ld "build/Debug/Fan Control.prefPane/Contents/MacOS/Fan Control" normal i386    cd "/Users/josenistal/Code/Fan Control Source"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -bundle "-L/Users/josenistal/Code/Fan Control Source/build/Debug" "-F/Users/josenistal/Code/Fan Control Source/build/Debug" -filelist "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Objects-normal/i386/Fan Control.LinkFileList" -framework Foundation -framework AppKit -fobjc-link-runtime -framework PreferencePanes -o "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/MacOS/Fan Control"36"DFC10716-D06E-4E53-B35F-1E44CD43965F-
+
+CProcessInfoPlistFile "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Info.plist" Info.plist
+s385489415.393843
+e385489415.396166
+r1
+xProcessInfoPlistFile
+x/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist26df64071afab641^9c6a65071afab641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/Info.plist0000000000000000^316"ProcessInfoPlistFile "build/Debug/Fan Control.prefPane/Contents/Info.plist" Info.plist    cd "/Users/josenistal/Code/Fan Control Source"    builtin-infoPlistUtility Info.plist -expandbuildsettings -platform macosx -o "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Info.plist"36"07705D95-982A-4650-A983-1934A6FA6F8B-
+
+CProcessPCH /Users/josenistal/Library/Developer/Xcode/DerivedData/Fan_Control-aidxwxclnpgxsqbdjhecmtoeghxm/Index/PrecompiledHeaders/AppKit-glbammlxyxkqlycskgxrfjchytfw_ast/AppKit.h.pth /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h.pth /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385489415.430281
+e385489416.011487
+r1
+xProcessPCH
+x/var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h.pth
+x/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h8d466e071afab641^bff002081afab641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h0000000000000000^2595"ProcessPCH /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h.pth /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/josenistal/Code/Fan Control Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/Fan Control.hmap" "-I/Users/josenistal/Code/Fan Control Source/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/System/Library/Frameworks/PreferencePanes.framework/Headers "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/DerivedSources/i386" "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Preference Pane.build/DerivedSources" "-F/Users/josenistal/Code/Fan Control Source/build/Debug" --serialize-diagnostics /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h.dia -c /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h.pth -MMD -MT dependencies -MF /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-arjbvatdppdrkodiuckdmqobniud/AppKit.h.d36"9387C273-0E50-433E-AC4C-F9A182E1736A-
+
+CStripNIB "/Users/josenistal/Code/Fan Control Source/PreferencePane.nib"
+s385489415.406198
+e385489415.422247
+r1
+xStripNIB
+x/Users/josenistal/Code/Fan Control Source/PreferencePane.nib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Processing /Users/josenistal/Code/Fan Control Source/PreferencePane.nibba4968071afab641^7e196c071afab641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/PreferencePane.nib/0000000000000000^453"StripNIB PreferencePane.nib    cd "/Users/josenistal/Code/Fan Control Source"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --strip "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane/Contents/Resources/PreferencePane.nib" --output-format human-readable-text "/Users/josenistal/Code/Fan Control Source/PreferencePane.nib"36"BE1EE490-8E9F-4A38-8474-1C3AC23D75B6-
+
+CTouch "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane"
+s385489416.121926
+e385489416.126794
+r1
+xTouch
+x/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Touch /Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane1f471f081afab641^717520081afab641^---0#0#0#--191"Touch "build/Debug/Fan Control.prefPane"    cd "/Users/josenistal/Code/Fan Control Source"    /usr/bin/touch -c "/Users/josenistal/Code/Fan Control Source/build/Debug/Fan Control.prefPane"36"E072C9F8-A9D7-4657-96E1-86E0A52F33C7-
+

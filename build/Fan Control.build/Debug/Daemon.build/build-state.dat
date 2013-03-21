@@ -1,0 +1,194 @@
+TDaemon
+v5
+r1
+cCheck dependencies
+cProcessPCH /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h.pth /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/MFDaemon.o" "/Users/josenistal/Code/Fan Control Source/MFDaemon.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/smc.o" "/Users/josenistal/Code/Fan Control Source/smc.c" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/main.o" "/Users/josenistal/Code/Fan Control Source/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/josenistal/Code/Fan Control Source/build/Debug/FanControlDaemon" normal i386
+
+N/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000005149BCF6000000000000197F
+t1363786998
+s6527
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051479B9E0000000000A1D340
+t1363647390
+s10605376
+
+N/System/Library/Frameworks/IOKit.framework/IOKit
+c0000000051479B9F0000000000130990
+t1363647391
+s1247632
+
+N/Users/josenistal/Code/Fan Control Source/MFDaemon.h
+c00000000472254060000000000000418
+t1193432070
+s1048
+
+N/Users/josenistal/Code/Fan Control Source/MFDaemon.m
+c00000000472254060000000000001543
+t1193432070
+s5443
+i"MFDaemon.h"
+i"MFProtocol.h"
+i"MFDefinitions.h"
+i"smc.h"
+
+N/Users/josenistal/Code/Fan Control Source/MFDefinitions.h
+c00000000472254060000000000000346
+t1193432070
+s838
+
+N/Users/josenistal/Code/Fan Control Source/MFProtocol.h
+c000000004722540600000000000004E2
+t1193432070
+s1250
+
+N/Users/josenistal/Code/Fan Control Source/build/Debug/FanControlDaemon
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/FanControlDaemon.LinkFileList
+c000000005149E2870000000000000153
+t1363796615
+s339
+
+N/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/MFDaemon.o
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/smc.o
+t2
+s0
+
+N/Users/josenistal/Code/Fan Control Source/main.m
+c00000000472320D60000000000000724
+t1193484502
+s1828
+
+N/Users/josenistal/Code/Fan Control Source/smc.c
+c00000000472254060000000000002DFF
+t1193432070
+s11775
+
+N/Users/josenistal/Code/Fan Control Source/smc.h
+c000000005149DBB30000000000000C01
+t1363794867
+s3073
+
+N/var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h.pth
+t2
+s0
+
+CBuild AST from "/Users/josenistal/Code/Fan Control Source/MFDaemon.m"
+r0
+
+CBuild AST from "/Users/josenistal/Code/Fan Control Source/main.m"
+r0
+
+CBuild AST from "/Users/josenistal/Code/Fan Control Source/smc.c"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb1365e071afab641^87c160071afab641^---0#1#0#--18"Check dependencies36"B8FBE8B2-0F3C-4AD2-97DA-E106E6877915-
+
+CCompileC "build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/MFDaemon.o" "/Users/josenistal/Code/Fan Control Source/MFDaemon.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385489415.975008
+e385489416.020061
+r1
+xCompileC
+xbuild/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/MFDaemon.o
+x/Users/josenistal/Code/Fan Control Source/MFDaemon.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/josenistal/Code/Fan Control Source/MFDaemon.m:96:5: warning: implicit declaration of function 'SMCOpen' is invalid in C99 [-Wimplicit-function-declaration]
+o    SMCOpen();
+o    ^
+o/Users/josenistal/Code/Fan Control Source/MFDaemon.m:122:5: warning: implicit declaration of function 'SMCClose' is invalid in C99 [-Wimplicit-function-declaration]
+o    SMCClose();
+o    ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/josenistal/Code/Fan Control Source/MFDaemon.mb0aff9071afab641^752205081afab641^-393"/Users/josenistal/Code/Fan Control Source/MFDaemon.m:96:5: warning: implicit declaration of function 'SMCOpen' is invalid in C99 [-Wimplicit-function-declaration]    SMCOpen();    ^/Users/josenistal/Code/Fan Control Source/MFDaemon.m:122:5: warning: implicit declaration of function 'SMCClose' is invalid in C99 [-Wimplicit-function-declaration]    SMCClose();    ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@60"Implicit declaration of function 'SMCOpen' is invalid in C99-385489416#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@72"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/MFDaemon.m0000000000000000^95#4#95#4#3567#0#14"Semantic Issue--2@61"Implicit declaration of function 'SMCClose' is invalid in C99-385489416#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@72"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/MFDaemon.m0000000000000000^121#4#121#4#4305#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@72"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/MFDaemon.m0000000000000000^2475"CompileC "build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/MFDaemon.o" MFDaemon.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/josenistal/Code/Fan Control Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/FanControlDaemon.hmap" "-I/Users/josenistal/Code/Fan Control Source/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/DerivedSources/i386" "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/DerivedSources" "-F/Users/josenistal/Code/Fan Control Source/build/Debug" -include /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h -MMD -MT dependencies -MF "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/MFDaemon.d" --serialize-diagnostics "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/MFDaemon.dia" -c "/Users/josenistal/Code/Fan Control Source/MFDaemon.m" -o "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/MFDaemon.o"36"721A21BB-BD43-438F-BB6D-5C88C48E7DD7-
+
+CCompileC "build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/main.o" "/Users/josenistal/Code/Fan Control Source/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385489415.975019
+e385489416.011862
+r1
+xCompileC
+xbuild/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/main.o
+x/Users/josenistal/Code/Fan Control Source/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/josenistal/Code/Fan Control Source/main.m:40:31: warning: 'defaultConnection' is deprecated [-Wdeprecated-declarations]
+o                NSConnection *connection = [NSConnection defaultConnection];
+o                                            ^
+o/System/Library/Frameworks/Foundation.framework/Headers/NSConnection.h:51:1: note: method 'defaultConnection' declared here
+o+ (NSConnection *)defaultConnection NS_DEPRECATED(10_0, 10_6, NA, NA);
+o^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Users/josenistal/Code/Fan Control Source/main.mc0aff9071afab641^b70903081afab641^-468"/Users/josenistal/Code/Fan Control Source/main.m:40:31: warning: 'defaultConnection' is deprecated [-Wdeprecated-declarations]                NSConnection *connection = [NSConnection defaultConnection];                                            ^/System/Library/Frameworks/Foundation.framework/Headers/NSConnection.h:51:1: note: method 'defaultConnection' declared here+ (NSConnection *)defaultConnection NS_DEPRECATED(10_0, 10_6, NA, NA);^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@33"'defaultConnection' is deprecated-385489416#18446744073709551615#0#1(2@40"Method 'defaultConnection' declared here-385489416#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@86"file://localhost/System/Library/Frameworks/Foundation.framework/Headers/NSConnection.h0000000000000000^50#0#50#0#1237#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@68"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/main.m0000000000000000^39#30#39#30#1537#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@68"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/main.m0000000000000000^2451"CompileC "build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/main.o" main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/josenistal/Code/Fan Control Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/FanControlDaemon.hmap" "-I/Users/josenistal/Code/Fan Control Source/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/DerivedSources/i386" "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/DerivedSources" "-F/Users/josenistal/Code/Fan Control Source/build/Debug" -include /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h -MMD -MT dependencies -MF "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/main.dia" -c "/Users/josenistal/Code/Fan Control Source/main.m" -o "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/main.o"36"EB1BBD56-020D-4FEB-B940-83FDAC878DC5-
+
+CCompileC "build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/smc.o" "/Users/josenistal/Code/Fan Control Source/smc.c" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385489415.975014
+e385489416.020265
+r1
+xCompileC
+xbuild/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/smc.o
+x/Users/josenistal/Code/Fan Control Source/smc.c
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/josenistal/Code/Fan Control Source/smc.c:163:12: warning: 'IOConnectMethodStructureIStructureO' is deprecated [-Wdeprecated-declarations]
+o    return IOConnectMethodStructureIStructureO(
+o           ^
+o/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1413:1: note: 'IOConnectMethodStructureIStructureO' declared here
+oIOConnectMethodStructureIStructureO(
+o^
+o/Users/josenistal/Code/Fan Control Source/smc.c:184:23: warning: format string is not a string literal (potentially insecure) [-Wformat-security]
+o    sprintf(val->key, key);
+o                      ^~~
+o/usr/include/secure/_stdio.h:49:56: note: expanded from macro 'sprintf'
+o  __builtin___sprintf_chk (str, 0, __darwin_obsz(str), __VA_ARGS__)
+o                                                       ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Users/josenistal/Code/Fan Control Source/smc.c24b4f9071afab641^163005081afab641^-792"/Users/josenistal/Code/Fan Control Source/smc.c:163:12: warning: 'IOConnectMethodStructureIStructureO' is deprecated [-Wdeprecated-declarations]    return IOConnectMethodStructureIStructureO(           ^/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h:1413:1: note: 'IOConnectMethodStructureIStructureO' declared hereIOConnectMethodStructureIStructureO(^/Users/josenistal/Code/Fan Control Source/smc.c:184:23: warning: format string is not a string literal (potentially insecure) [-Wformat-security]    sprintf(val->key, key);                      ^~~/usr/include/secure/_stdio.h:49:56: note: expanded from macro 'sprintf'  __builtin___sprintf_chk (str, 0, __darwin_obsz(str), __VA_ARGS__)                                                       ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@51"'IOConnectMethodStructureIStructureO' is deprecated-385489416#18446744073709551615#0#1(2@51"'IOConnectMethodStructureIStructureO' declared here-385489416#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@77"file://localhost/System/Library/Frameworks/IOKit.framework/Headers/IOKitLib.h0000000000000000^1412#0#1412#0#70102#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@67"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/smc.c0000000000000000^162#11#162#11#3996#0#12"Deprecations--2@60"Format string is not a string literal (potentially insecure)-385489416#18446744073709551615#0#1(2@29"Expanded from macro 'sprintf'-385489416#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@44"file://localhost/usr/include/secure/_stdio.h0000000000000000^48#55#48#55#1519#0#21"Clang LLVM 1.0 Notice1(3@44"file://localhost/usr/include/secure/_stdio.h0000000000000000^183#22#183#25#4602#0#-1#27"com.apple.dt.IDE.diagnostic3@67"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/smc.c0000000000000000^183#22#183#22#0#0#19"Format String Issue1(3@67"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/smc.c0000000000000000^183#22#183#25#4602#0#-0#0#0#-19%DVTDocumentLocation4@67"file://localhost/Users/josenistal/Code/Fan%20Control%20Source/smc.c0000000000000000^2445"CompileC "build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/smc.o" smc.c normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/josenistal/Code/Fan Control Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/FanControlDaemon.hmap" "-I/Users/josenistal/Code/Fan Control Source/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/DerivedSources/i386" "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/DerivedSources" "-F/Users/josenistal/Code/Fan Control Source/build/Debug" -include /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h -MMD -MT dependencies -MF "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/smc.d" --serialize-diagnostics "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/smc.dia" -c "/Users/josenistal/Code/Fan Control Source/smc.c" -o "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/smc.o"36"457E8F9C-0513-46C3-8F39-0DB186AFF9D0-
+
+CLd "/Users/josenistal/Code/Fan Control Source/build/Debug/FanControlDaemon" normal i386
+s385489416.027900
+e385489416.074183
+r1
+xLd
+x/Users/josenistal/Code/Fan Control Source/build/Debug/FanControlDaemon
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Link /Users/josenistal/Code/Fan Control Source/build/Debug/FanControlDaemone76d08081afab641^22fd12081afab641^---0#0#0#--641"Ld build/Debug/FanControlDaemon normal i386    cd "/Users/josenistal/Code/Fan Control Source"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 "-L/Users/josenistal/Code/Fan Control Source/build/Debug" "-F/Users/josenistal/Code/Fan Control Source/build/Debug" -filelist "/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/Objects-normal/i386/FanControlDaemon.LinkFileList" -framework Foundation -framework AppKit -fobjc-link-runtime -framework Foundation -framework IOKit -o "/Users/josenistal/Code/Fan Control Source/build/Debug/FanControlDaemon"36"013628E5-E92B-47C4-9F7A-119E2D82C0D8-
+
+CProcessPCH /Users/josenistal/Library/Developer/Xcode/DerivedData/Fan_Control-aidxwxclnpgxsqbdjhecmtoeghxm/Index/PrecompiledHeaders/AppKit-dpbiedlrsfvkdbcrleziiphdcpgt_ast/AppKit.h.pth /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h.pth /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s385489415.381204
+e385489415.968135
+r1
+xProcessPCH
+x/var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h.pth
+x/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h97a961071afab641^5ed7f7071afab641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h0000000000000000^2530"ProcessPCH /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h.pth /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/josenistal/Code/Fan Control Source"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/FanControlDaemon.hmap" "-I/Users/josenistal/Code/Fan Control Source/build/Debug/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/DerivedSources/i386" "-I/Users/josenistal/Code/Fan Control Source/build/Fan Control.build/Debug/Daemon.build/DerivedSources" "-F/Users/josenistal/Code/Fan Control Source/build/Debug" --serialize-diagnostics /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h.dia -c /System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h.pth -MMD -MT dependencies -MF /var/folders/x6/9jx_y2zx6mn0cwgz_1tbp6300000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-frgbjpskrnljwkfevyyteetgjzhf/AppKit.h.d36"60412583-DBAD-4B68-8BE8-BCEE0CC7BD60-
+
